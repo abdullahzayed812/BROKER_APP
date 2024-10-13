@@ -1,6 +1,9 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "skipLibCheck": true,
+    "strict": true,
+    "jsx": "react-native",
+    "types": ["nativewind/types"]
   }
 }
